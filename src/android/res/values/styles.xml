@@ -2,7 +2,7 @@
 <resources>
 <color name="custom_theme_color">#e64141</color>
 <style name="THEME_CUSTOM" parent="Theme.Material.Light">
-	<item name="colorPrimary">custom_theme_color</item>
+    <item name="colorPrimary">custom_theme_color</item>
     <item name="colorPrimaryDark">custom_theme_color</item>
     <item name="colorAccent">@color/white</item>
 </style>
