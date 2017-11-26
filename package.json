@@ -1,6 +1,6 @@
 {
   "name": "cordova-test-style-datepicker",
-  "version": "0.1",
+  "version": "0.1.0",
   "description": "Cordova DatePicker Test Style Plugin",
   "cordova": {
     "id": "cordova-test-style-datepicker",
