@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-<color name="custom_theme_color">#e64141</color>
-<style name="THEME_CUSTOM" parent="Theme.Material.Light">
-    <item name="colorPrimary">custom_theme_color</item>
-    <item name="colorPrimaryDark">custom_theme_color</item>
-    <item name="colorAccent">@color/white</item>
-</style>
-</resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
+  <style name="THEME_CUSTOM">
+    <item name="android:colorPrimary">@color/cro_red</item>
+    <item name="android:colorPrimaryDark">@color/cro_red</item>
+    <item name="android:colorAccent">@color/cro_red</item>
+  </style>
+
+</resources>
