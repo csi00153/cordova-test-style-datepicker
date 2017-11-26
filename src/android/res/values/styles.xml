@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
+  
+<style name="AppBaseTheme" parent="android:Theme.Material.Light">
+    <item name="android:datePickerDialogTheme">@style/THEME_CUSTOM</item>
+</style>
+  
+<style name="THEME_CUSTOM" parent="android:Theme.Material.Light.Dialog">
+    <item name="android:colorAccent">@color/date_picker_accent</item>
+  
+    <!-- No need to override 'datePickerStyle' -->
+    <!-- <item name="android:datePickerStyle">@style/MyDatePickerStyle</item> -->
+</style>
 
-  <style name="THEME_CUSTOM" parent="Theme.AppCompat.Light.DarkActionBar">
-    <item name="android:colorPrimary">@color/cro_red</item>
-    <item name="android:colorPrimaryDark">@color/cro_red</item>
-    <item name="android:colorAccent">@color/cro_red</item>
-  </style>
+<!--<style name="MyDatePickerStyle" parent="@android:style/Widget.Material.Light.DatePicker">
+    <item name="android:headerBackground">@color/chosen_header_bg_color</item>
+</style>-->
+
 </resources>
