@@ -6,7 +6,7 @@
 </style>
   
 <style name="THEME_CUSTOM" parent="android:Theme.Material.Light.Dialog">
-    <item name="android:colorAccent">@color/date_picker_accent</item>
+    <item name="android:colorAccent">@color/cro_red</item>
   
     <!-- No need to override 'datePickerStyle' -->
     <!-- <item name="android:datePickerStyle">@style/MyDatePickerStyle</item> -->
