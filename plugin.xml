@@ -3,22 +3,18 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="cordova-test-style-datepicker"
-    version="0.1">
+    version="0.1.0">
     <name>Cordova DatePicker Test Style Plugin</name>
     <description>Cordova/PhoneGap DatePicker Plugin for iOS, Android and Windows Phone with Custom style</description>
     <license>MIT</license>
     <keywords>cordova,phonegap,datepicker,android,ios,ios7,ios8,wp</keywords>
     <!--<repo>https://github.com/csi00153/cordova-test-style-datepicker.git</repo>-->
-
-    <engines>
-        <engine name="cordova-android" version=">=6.3.0"/>
-    </engines>
 	
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
             <feature name="DatePickerPlugin">
-                <param name="android-package" value="com.plugin.datepicker.DatePickerPlugin"/>
+                <param name="android-package" value="com.plugin.datepicker.CustomStyleDatePickerPlugin"/>
             </feature>
         </config-file>
 
@@ -26,7 +22,7 @@
             <clobbers target="datePicker" />
         </js-module>
 
-		<resource-file src="src/android/res/values/styles.xml" target="res/values/styles.xml" />
+        <resource-file src="src/android/res/values/styles.xml" target="res/values/styles.xml" />
         <source-file src="src/android/DatePickerPlugin.java" target-dir="src/com/plugin/datepicker" />
     </platform>
 
