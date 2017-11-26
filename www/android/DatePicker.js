@@ -19,7 +19,7 @@ DatePicker.prototype.ANDROID_THEMES = {
   THEME_HOLO_LIGHT           : 3,
   THEME_DEVICE_DEFAULT_DARK  : 4,
   THEME_DEVICE_DEFAULT_LIGHT : 5,
-  THEME_CUSTOM 				 : 6
+  THEME_CUSTOM 		     : 6
 };
 
 /**
