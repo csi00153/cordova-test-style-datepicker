@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
   
-<style name="AppBaseTheme" parent="android:Theme.AppCompat.Light">
+<style name="AppBaseTheme" parent="android:Theme.Material.Light">
     <item name="android:datePickerDialogTheme">@style/THEME_CUSTOM</item>
 </style>
   
-<style name="THEME_CUSTOM" parent="android:Theme.AppCompat.Light.Dialog">
+<style name="THEME_CUSTOM" parent="android:Theme.Material.Light.Dialog">
     <item name="android:colorAccent">@color/cro_red</item>
   
     <!-- No need to override 'datePickerStyle' -->
