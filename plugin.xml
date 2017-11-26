@@ -9,6 +9,10 @@
     <license>MIT</license>
     <keywords>cordova,phonegap,datepicker,android,ios,ios7,ios8,wp</keywords>
     <!--<repo>https://github.com/csi00153/cordova-test-style-datepicker.git</repo>-->
+
+    <engines>
+        <engine name="cordova-android" version=">=6.3.0"/>
+    </engines>
 	
     <!-- android -->
     <platform name="android">
