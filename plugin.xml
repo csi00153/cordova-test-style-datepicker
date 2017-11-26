@@ -2,15 +2,15 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-customized-datepicker"
-    version="0.9.3">
-    <name>Customized DatePicker</name>
-    <description>Cordova/PhoneGap DatePicker Plugin for iOS, Android and Windows Phone</description>
+    id="cordova-test-style-datepicker"
+    version="0.1">
+    <name>Cordova DatePicker Test Style Plugin</name>
+    <description>Cordova/PhoneGap DatePicker Plugin for iOS, Android and Windows Phone with Custom style</description>
     <license>MIT</license>
     <keywords>cordova,phonegap,datepicker,android,ios,ios7,ios8,wp</keywords>
-    <!--<repo>https://github.com/VitaliiBlagodir/cordova-plugin-datepicker.git</repo>-->
+    <!--<repo>https://github.com/csi00153/cordova-test-style-datepicker.git</repo>-->
 
-	<engines>
+    <engines>
         <engine name="cordova-android" version=">=6.3.0"/>
     </engines>
 	
