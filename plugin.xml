@@ -25,9 +25,10 @@
         <js-module src="www/android/DatePicker.js" name="DatePicker">
             <clobbers target="datePicker" />
         </js-module>
-
-        <resource-file src="src/android/res/values/styles.xml" target="res/values/styles.xml" />
+	    
         <source-file src="src/android/DatePickerPlugin.java" target-dir="src/com/plugin/datepicker" />
+	<source-file src="src/android/res/values/colors.xml" target-dir="res/values" />
+    	<source-file src="src/android/res/values/styles.xml" target-dir="res/values" />
     </platform>
 
     <!-- ios -->
