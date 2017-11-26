@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-  <style name="THEME_CUSTOM">
+  <style name="THEME_CUSTOM" parent="Theme.AppCompat.Light.DarkActionBar">
     <item name="android:colorPrimary">@color/cro_red</item>
     <item name="android:colorPrimaryDark">@color/cro_red</item>
     <item name="android:colorAccent">@color/cro_red</item>
   </style>
-
 </resources>
